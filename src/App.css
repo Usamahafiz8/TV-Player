@@ -4,6 +4,7 @@
   /* justify-content: center; */
   /* align-items: center; */
   /* height: 100vh; */
+  /* height: 100vh; */
 }
 
 .image-stack {
@@ -30,10 +31,9 @@
   top: 0;
   left: 0;
   opacity: 1;
+  width: 350px;
 }
 
-
-/* App.css */
 
 .nav-button {
   background-color: gray;
@@ -47,4 +47,52 @@
 
 .nav-button:hover {
   background-color: black;
+}
+
+.buttons-section{
+  margin: 80px;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+@media (max-width: 480px) {
+  .tv {
+    max-width: 350px; /* Allow more flexibility on smaller screens */
+  }
+
+  .image-stack {
+    position: relative;
+    width: 20px; 
+    height: 200px; 
+  }
+  .background-image video {
+    width: 180px; 
+    height: 150px;
+    object-fit: cover; /* Ensures the video covers the entire div */
+  }
+  
+  .background-image {
+    margin-top: 45px;
+    margin-left: 50px;
+    width: 400px;
+    height: 100%;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 350px;
+  }
+  .buttons-section{
+    margin: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  } 
 }

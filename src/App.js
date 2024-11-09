@@ -27,13 +27,6 @@ function App() {
   return (
     <div
       style={{
-        width: "550px",
-        // backgroundColor:"gray",
-        // height: "100vh",
-        // display: "flex",
-        // flexDirection: "column",
-        // justifyContent: "center",
-        // alignItems: "center",
       }}
     >
       <div className="App">
@@ -41,19 +34,12 @@ function App() {
           <div className="background-image">
             <video src={videos[currentVideoIndex]} autoPlay muted loop />
           </div>
-          <div className="overlay-image">
-            <img src="tv_screen.png" alt="TV Screen Overlay" />
+          <div className="overlay-image"  >
+            <img src="tv_screen.png" alt="TV Screen Overlay" className="tv"/>
           </div>
         </div>
       </div>
-      <div
-        style={{
-          margin: "80px",
-          display: "flex",
-          justifyContent: "center",
-          gap: "20px",
-          
-        }}
+      <div className="buttons-section"
       >
         <button
           className="nav-button"
