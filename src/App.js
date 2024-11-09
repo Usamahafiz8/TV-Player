@@ -39,7 +39,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="buttons-section"
+      <div
+        style={{
+          margin: "80px",
+          display: "flex",
+          // justifyContent: "center",
+          gap: "20px",
+        }}
       >
         <button
           className="nav-button"
