@@ -52,7 +52,7 @@
 .buttons-section{
   margin: 80px;
   display: flex ;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 10px;
 }
